@@ -9,6 +9,6 @@ This project implements a Long Short-Term Memory (LSTM) based deep learning mode
 - 🧠 Deep learning model using stacked LSTM layers
 - 📊 Evaluation metrics: MAE, MSE, RMSE, R² Score
 - 📉 Forecast visualization for next 10 and 30 days
-- 🧾 Model explainability using SHAP and waterfall plots
+- 🧾 Model explainability using SHAP and waterfall and bar plots
 
 
