@@ -1,16 +1,14 @@
-Stock Market Prediction Using LSTM with Explainable AI
-Overview
-This project implements a Long Short-Term Memory (LSTM) based deep learning model to predict stock prices of HDFC Bank using historical data. The model forecasts future stock prices by learning temporal patterns from past stock price trends. Additionally, explainable AI techniques, specifically SHAP (SHapley Additive exPlanations), are integrated to interpret the model’s predictions and provide insights into feature contributions.
+# Stock Market Prediction Using LSTM with Explainable AI
 
-Features
-Historical stock data extraction using Yahoo Finance API (yfinance).
+## 📌 Overview
+This project implements a Long Short-Term Memory (LSTM) based deep learning model to predict HDFC Bank stock prices using historical data. It learns temporal dependencies and forecasts future prices accurately. To enhance transparency, SHAP (SHapley Additive exPlanations) is used to interpret model predictions.
 
-Data preprocessing and normalization with MinMaxScaler.
+## 🚀 Features
+- 📈 Data extraction from Yahoo Finance using `yfinance`
+- 🧹 Data preprocessing with MinMaxScaler
+- 🧠 Deep learning model using stacked LSTM layers
+- 📊 Evaluation metrics: MAE, MSE, RMSE, R² Score
+- 📉 Forecast visualization for next 10 and 30 days
+- 🧾 Model explainability using SHAP and waterfall plots
 
-Stacked LSTM model architecture for time-series forecasting.
 
-Model evaluation using metrics such as MAE, MSE, RMSE, and R² score.
-
-Visualization of actual vs predicted stock prices and future forecasts.
-
-Explainability of predictions using SHAP values and waterfall plots.
